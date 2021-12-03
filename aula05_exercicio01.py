@@ -9,7 +9,9 @@ def texto():
     nome = input('Digite uma palavra: ')
     letras = len(nome)
     print('+','-' *letras,'+')
-    print('|', nome, '|')
+    print('|', nome, '|') # pode-se chamar uma variável direto. no caso NOME
     print('+','-' *letras,'+')
+
+# Chamando Função
 
 texto()
