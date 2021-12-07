@@ -4,7 +4,7 @@
 # e falso, caso contrário.
 
 def validar(escrita, min, max): # usando como referência x, y e z. porem cabe qualquer coisa
-    string = input(escrita) # pegará o parâmetro x,que nesse caso é 'escrita'
+    string = input(escrita) # pegará o parâmetro x,que nesse caso é 'escrita'. relaciona o input ao escrita(x)
     caracteres = len(string) # contará os caracteres da escrita == string
 
     while((caracteres<min) or (caracteres>max)): # laço de validação. Se a string = escrita estiver fora dos parâmetros de min = 10 e max = 30
