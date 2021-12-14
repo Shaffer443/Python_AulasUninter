@@ -44,7 +44,7 @@ def existearquivo(nomearquivo): # verifica a existência ou não do arquivo.
 
 def cadastrar(nomearquivo, nomejogo, nomeconsole ): # Gera o arquivo + nome do jogo digitado + nome do console
     try:
-        abrir = open(nomearquivo, 'at') # a == abrir arquivo e preservar conteúdo + t == rquivo tipo texto
+        abrir = open(nomearquivo, 'at') # a == abrir arquivo e preservar conteúdo + t == arquivo tipo texto
     except:
         print('Erro ao  abrir o arquivo.') # Erro genérico, criado por mim.
     else:
